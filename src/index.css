@@ -121,6 +121,10 @@ button:hover {
   border-color: #D47271;
 
 }
+
+label {
+  color:#482020;
+}
 #title {
   font-size: 2em;
   font-weight: 500;
