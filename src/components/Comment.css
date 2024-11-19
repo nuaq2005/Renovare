@@ -1,0 +1,54 @@
+.comment-card{
+    font-family: 'Overpass', sans-serif;
+    max-width: 600px;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: #333;
+}
+
+.upvotesBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #D47271;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.comment-image{
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.commentBtn{
+    text-decoration: none;
+    width: 50px;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #D47271;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.commentBtn:hover {
+    background-color: #482020;
+    color: white;
+}
+
+.comment-footer{
+    display: flex;
+    align-items: start;
+    margin: 0.5rem 0;
+}
